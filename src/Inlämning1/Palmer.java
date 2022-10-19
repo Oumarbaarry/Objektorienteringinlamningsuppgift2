@@ -1,10 +1,12 @@
-public class Palmer extends växter{
+package Inlämning1;
+
+public class Palmer extends växter {
 
 
     //Här skapar jag variablar
     final double föda = 0.5;
 
-    // Skapar en superkonstruktor som läser in från min växter klass
+    // Skapar en superkonstruktor som läser in från min Inlämning1.växter klass
     public Palmer(double längd, String name) {
         super(längd, name);
         typVäxt ="Palm";

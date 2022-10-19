@@ -1,6 +1,10 @@
-public abstract class växter implements VäxterInterface{
+package Inlämning1;
 
-    //Här ger jag ut variablar som är nödvändiga för inläsning av växt
+public abstract class växter implements VäxterInterface {
+
+    /*Här ger jag ut variablar som är nödvändiga för inläsning av växt
+    gör private på längd och namn för att det är något dom alla har
+     */
     private double längd;
     private String name;
 

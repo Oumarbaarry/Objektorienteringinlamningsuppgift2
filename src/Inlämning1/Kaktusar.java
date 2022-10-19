@@ -1,8 +1,10 @@
-public class Kaktusar extends växter{
+package Inlämning1;
+
+public class Kaktusar extends växter {
 
 
 
-// Skapar en superkonstruktor som läser in från min växter klass
+// Skapar en superkonstruktor som läser in från min Inlämning1.växter klass
     public Kaktusar(double längd, String name) {
         super(längd, name);
         typVäxt="Kaktus";

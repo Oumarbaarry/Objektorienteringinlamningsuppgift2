@@ -1,10 +1,15 @@
+package Inlämning1;
+
+import Inlämning1.Kaktusar;
+import Inlämning1.Köttätandeväxter;
+
 import javax.swing.*;
 import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
 
-        // Här skapar jag upp alla olika växter
+        // Här skapar jag upp alla olika Inlämning1.växter
 
         växter palm = new Palmer(5,"Laura");
         växter palm2 = new Palmer(1,"Putte");
@@ -18,7 +23,7 @@ public class Main {
         myVäxter.add(kaktus);
         myVäxter.add(köttätande);
 
-/* Sen så skapar jag en String array som innehåller alla växter,jag kör en for loop genom hela listan myVäxter
+/* Sen så skapar jag en String array som innehåller alla Inlämning1.växter,jag kör en for loop genom hela listan myVäxter
  och stoppar in namnen på varje växt in till plats [i] inut i arrayen.
  */
         String[] växtArray = new String[5];
@@ -29,9 +34,9 @@ public class Main {
 
         växtArray[4]= "Inget av dessa alternativ";
 
-//Sen skapar jag dropdownlistan, första argumentet (det man skriver när man skapar den) i den ska vara null,
+//Sen skapar jag dropdownlista, första argumentet (det man skriver när man skapar den) i den ska vara null,
 // sedan frågan som ställs i rutan, rubriken, meddelandetyp (ikonen), sen null,
-// efter det skriver in arrayen som namnen ska tas från i listan och sist skriver den String som är standardvalet i dropdownlistan
+// efter det skriver jag in arrayen som namnen ska tas från i listan och sist skriver den String som är standardvalet i dropdownlistan
 
         String valAvVäxt = (String) JOptionPane.showInputDialog(null,
                 "Välj vilken växt som ska få föda? ",
@@ -39,7 +44,7 @@ public class Main {
                 JOptionPane.QUESTION_MESSAGE,
                 null,växtArray,växtArray[0]);
 
-/*Sen gör enhanced loop som går igenom alla växter.
+/*Sen gör enhanced loop som går igenom alla Inlämning1.växter.
 Så för varje växt "växt" i listan myVäxter,
 kontrollerar loopen om Stringen valAvVäxt är samma som växtens namn,
 och om det är det så skriver den ut meddelandet som ligger i det växtobjektet som en metod
