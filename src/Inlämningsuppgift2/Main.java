@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) throws IOException{
        
-        Kunderna k = new Kunderna("m","a", LocalDate.now());
+        Kunderna k = new Kunderna(" "," ", LocalDate.now());
 
         
 
