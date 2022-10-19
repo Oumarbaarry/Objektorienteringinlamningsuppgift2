@@ -9,11 +9,7 @@ public class Kunderna {
     String pNummer;
     LocalDate senasteBetalning;
 
-    /* Skapar en metod hittaMedlem som ska ränka ut plats i listan,
-        Jag gör en for loop där jag lägger alla som är medlemmar inut "i" så när programmet kör igenom listan så går det igenom
-        så länge medlemen contains "i" returnerar den
-        Gör även minus 1 för dom som aldrig varit medlemmar
-         */
+    
     public static int hittamedlem(String kund, String[] lista) {
         for (int i = 0; i < lista.length; i++){
             if (i % 2 == 0) {
