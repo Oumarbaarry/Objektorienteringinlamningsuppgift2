@@ -37,12 +37,7 @@ public class Kunderna {
 
         }
     }
-    public String getpNummer (){
-        return pNummer;
-    }
-    public LocalDate getSenasteBetalning(){
-        return senasteBetalning;
-    }
+   
     public Kunderna (String namn, String pNummer, LocalDate senasteBetalning){
 
     }
